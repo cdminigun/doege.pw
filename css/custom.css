@@ -36,7 +36,7 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
 }
 
-.fancypic2{
+.homepage{
 	background: url(.//images/bottombg.jpg) no-repeat center center fixed;!important;
 	-webkit-background-size: cover;!important
   -moz-background-size: cover;!important
@@ -47,6 +47,12 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 
 
 }
+.homepageSocial {
+	position:absolute;
+	bottom:50px;
+	margin:auto;
+}
+
 .birdcage1 {
 	background-color: #222;
 	position:fixed;
