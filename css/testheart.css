@@ -52,7 +52,7 @@
 /* Makin it mine. */
 
 #heart i::before {
-    content: 'From Lisa to Brandon';
+    content: '#ArtMajor';
     position: absolute;
     z-index: 9;
     width: 100%;
