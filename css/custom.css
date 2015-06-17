@@ -111,3 +111,7 @@ canvas {
 	background-color:transparent !important;
 	color: transparent !important;
 }
+@media screen and (max-width:480px) {
+    .birdcage1 { display:none }
+    .birdcage2 { display:none }
+}
