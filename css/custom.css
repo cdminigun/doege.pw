@@ -131,3 +131,15 @@ canvas {
     .sidebar_left  { display:none}
     .sidebar_right { display:none}
 }
+@media screen and (max-width:600px) {
+    .birdcage1      { display:none }
+    .birdcage2      { display:none }
+    .sidebar_left  { display:none}
+    .sidebar_right { display:none}
+}
+@media screen and (max-width:800px) {
+    .birdcage1      { display:none }
+    .birdcage2      { display:none }
+    .sidebar_left  { display:none}
+    .sidebar_right { display:none}
+}
