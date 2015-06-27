@@ -47,6 +47,20 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 
 
 }
+.about_me_left{
+    position:fixed;
+    left:0;
+    top:50px;
+    bottom:0;
+    width: 16%;
+}
+.about_me_right{
+    position:fixed;
+    right:0;
+    top:50px;
+    bottom:0;
+    width: 16%;
+}
 .birdcage1 {
 	background-color: #222;
 	position:fixed;
@@ -112,6 +126,8 @@ canvas {
 	color: transparent !important;
 }
 @media screen and (max-width:480px) {
-    .birdcage1 { display:none }
-    .birdcage2 { display:none }
+    .birdcage1      { display:none }
+    .birdcage2      { display:none }
+    .about_me_left  { display:none}
+    .about_me_right { display:none}
 }
