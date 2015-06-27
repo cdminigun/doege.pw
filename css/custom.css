@@ -128,6 +128,6 @@ canvas {
 @media screen and (max-width:480px) {
     .birdcage1      { display:none }
     .birdcage2      { display:none }
-    .about_me_left  { display:none}
-    .about_me_right { display:none}
+    .sidebar_left  { display:none}
+    .sidebar_right { display:none}
 }
