@@ -70,7 +70,7 @@
         </div>
         <div class="col-md-8 col-sm-8">
             <div class="padding">
-                <h1 class="text-center"> <a href="">Having Fun with the Greek Question Mark </a></h1>
+                <h1 class="text-center"> <a href=""> Testing error messages with the Greek Question mark </a></h1>
                 <p class="text-center"> The Greek Question Mark &#x37e; or Hex: & #x37e; </p>
                 <p> In my testing of various languages I found that replacing a semi-colon with a Greek question mark resulted in a failure to compile.(Not a big surprise.) However, different compilers and interpreters had different error messages as to what was causing the issue.  </p>
                 <h3> My findings: Sorted by Language </h3>
@@ -101,7 +101,7 @@
                 </pre>
                 <p>Another Greek Question-Mark hidden within the code, however will G++ react similarly to GCC?</p>
                 <img src="images/cpp-error.png">
-                <p> G++ as with GCC accurately depics the location of the error and a likely cause. </p>
+                <p> G++, as with GCC, accurately shows the location of the error and a likely cause. </p>
                 <h4>Java </h4>
                 <pre>
                     public class HelloWorld {
@@ -112,7 +112,7 @@
                 </pre>
                 <p> Will Javac act similarly to GCC and G++?</p>
                 <img src="images/java-error.png">
-                <p> Java handles the error fairly well. However, I'd say that G++ and GCC handle it better than Javac.</p>
+                <p> Java handles the error fairly well. Issuing a short yet precise error message and showing exactly where the error exists..</p>
                 <h4> Python: </h4>
                 <pre>
                     def helloWorld():
@@ -127,7 +127,7 @@
                 </pre>
                 <p> How will an interprted language handle a Greek Question-Mark?</p>
                 <img src="images/python-error.png">
-                <p> I'd say that the Python error lets the user know that an error exists. However, I wouldn't say it is as clear as Javac's, GCC's or G++'s error output.</p>
+                <p> Python's error message issues a syntax error for a non ascii character, correctly depicting the error and showing the encoding for the greek question mark for python. However it does not show where the error exists, making the error a bit more cryptic. </p>
                 <h4>Ruby: </h4>
                 <pre>
                     puts "Hello World!"; puts "Hello World!";
@@ -135,12 +135,12 @@
                 </pre>
                 <p> Another implementation attempting to hide the error. </p>
                 <img src="images/ruby-error.png">
-                <p> Ruby's interpreter doesn't provide much information as to where the issues exists nor does it give a good reason as to why the code failed. </p>
+                <p> Ruby's interpreter gives a short yet cryptic error, making it rather difficult to understand where the error exists and as to what is causing it. </p>
                 <h3>Summary: </h3>
-                <p> In all I'd say that GCC & G++ handeled the error the best. Showing an exact view as to where the error was and it's underlying cause. Java is a close runner up in the sense that it too showed where the error, however the error-message wasn't too clear. Python and Ruby both gave errors which didn't give the user much information.</p>
-                <p> Both Ruby and Python's interpreters gave cryptic responses to this type of error. However, both languages rarely utilizing semi-colons which may explain why their output isn't very helpful. This could lead to issues if someone were to inject code.</p>
+                <p> In all I'd say that GCC & G++ generated the best error messages. Showing an exact view as to where the error was and it's underlying cause. Java is a close runner up in the sense that it too showed where the error, however the error-message wasn't as clear. </p>
+                <p> Both Ruby and Python's interpreters gave cryptic responses to this type of error. However, both languages rarely utilizing semi-colons which may explain why their output isn't very helpful. </p>
                 <h3> Further Research: </h3>
-                <p> I would like to further progress my study of the Greek Question Mark by using it in an extended list of programing languages and compilers / interpreters. </p>
+                <p> I would like to further continue my study of Error messages by using the greek question mark in an extended list of programing languages and compilers / interpreters. </p>
             </div>
         </div>
         <div class="col-md-2 col-sm-2">
